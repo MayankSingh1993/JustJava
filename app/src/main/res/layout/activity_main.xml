@@ -69,7 +69,7 @@
                 android:layout_height="48dp"
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16sp"
-
+                android:theme="@style/PrimaryFlatButton"
                 android:onClick="decrement"
                 android:text="-" />
 
@@ -91,9 +91,9 @@
                 android:layout_marginBottom="16dp"
 
                 android:layout_marginRight="8dp"
-
                 android:onClick="increment"
-                android:text="+" />
+                android:text="+"
+                android:theme="@style/PrimaryFlatButton" />
 
         </LinearLayout>
 
@@ -103,8 +103,10 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
+
             android:onClick="submitOrders"
-            android:text="@string/order" />
+            android:text="@string/order"
+            android:theme="@style/PrimaryFlatButton" />
 
 
     </LinearLayout>

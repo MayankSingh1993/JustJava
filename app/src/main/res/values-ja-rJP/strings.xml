@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">ジャストジャバ</string>
+    <string name="app_name">コーヒーオーダー</string>
     <string name="name"> 名</string>
     <string name="toppings">トッピング</string>
     <string name="whipped_cream">ホイップクリーム</string>
