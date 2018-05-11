@@ -22,5 +22,8 @@
     <string name="above_100_coffee_message">You cannot have more then 100 coffee</string>
     <string name="thank_you">Thank You!</string>
     <string name="order_summary_email_subject">Only java for <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="quantity_text">0</string>
 
 </resources>
