@@ -1,10 +1,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">JustJava</string>
+    <string name="app_name">OrderYourCoffee</string>
     <string name="name"> Name</string>
     <string name="toppings">Toppings</string>
     <string name="whipped_cream">Whipped Cream</string>
+    <string name="cinnamon">Cinnamon</string>
+    <string name="nutmeg">Nutmeg</string>
+    <string name="nutella">Nutella</string>
     <string name="chocolate">Chocolate</string>
     <string name="quantity">Quantity</string>
+    <string name="mint">Mint</string>
+    <string name="ice_cream">Ice Cream</string>
+
     <string name="order">order</string>
     <string name="initial_quantity_value">2</string>
     <string name="order_summary_price">Total: </string>

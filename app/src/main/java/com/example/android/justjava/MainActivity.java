@@ -5,14 +5,11 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import java.text.NumberFormat;
 
 /**
  * This app displays an order form to order coffee.
@@ -42,10 +39,21 @@ public class MainActivity extends AppCompatActivity {
 
         EditText editText = (EditText) findViewById(R.id.editText);
         String name = editText.getText().toString();
-        CheckBox whippedCreamCheckBox = (CheckBox) findViewById(R.id.checkBox);
+        CheckBox whippedCreamCheckBox = (CheckBox) findViewById(R.id.checkBox1);
         boolean hasWhippedCream = whippedCreamCheckBox.isChecked();
-        CheckBox chocolateCheckBox = (CheckBox) findViewById(R.id.checkBox1);
+        CheckBox chocolateCheckBox = (CheckBox) findViewById(R.id.checkBox2);
         boolean hasChocolate = chocolateCheckBox.isChecked();
+        CheckBox cinnamonCheckBox = (CheckBox) findViewById(R.id.checkBox1);
+        boolean hasCinnamon = cinnamonCheckBox.isChecked();
+        CheckBox mintCheckBox = (CheckBox) findViewById(R.id.checkBox2);
+        boolean hasMint = mintCheckBox.isChecked();
+        CheckBox nutellaCheckBox = (CheckBox) findViewById(R.id.checkBox1);
+        boolean hasnutella = nutellaCheckBox.isChecked();
+        CheckBox nutmegCheckBox = (CheckBox) findViewById(R.id.checkBox2);
+        boolean hasNutmeg = nutmegCheckBox.isChecked();
+        boolean hasNutella = nutellaCheckBox.isChecked();
+        CheckBox icecreamCheckBox = (CheckBox) findViewById(R.id.checkBox2);
+        boolean hasIceCream = icecreamCheckBox.isChecked();
         //Log.v("MainActivity","Has Whipped Cream : "+hasWhippedCream);
         //String priceMessage =calculatePrice(quantity,10);
         String priceMessage = createOrderSummary(5, 1, 2, name, hasWhippedCream, hasChocolate);

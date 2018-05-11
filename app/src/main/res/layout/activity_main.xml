@@ -12,12 +12,6 @@
         android:orientation="vertical"
         tools:context="com.example.android.justjava.MainActivity">
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="228dp"
-            app:srcCompat="@drawable/coffeemug" />
-
         <EditText
             android:id="@+id/editText"
             android:layout_width="match_parent"
@@ -26,6 +20,16 @@
             android:inputType="textPersonName"
             android:text="@string/name"
             style="@style/editText_style"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:src="@drawable/coffeemug">
+
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
 
         <TextView
             android:id="@+id/textView"
@@ -38,7 +42,7 @@
             android:textAllCaps="true" />
 
         <CheckBox
-            android:id="@+id/checkBox"
+            android:id="@+id/checkBox1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -48,13 +52,60 @@
 
 
         <CheckBox
-            android:id="@+id/checkBox1"
+            android:id="@+id/checkBox2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:paddingLeft="24sp"
             android:text="@string/chocolate"
             android:textSize="16sp" />
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:paddingLeft="24sp"
+            android:text="@string/cinnamon"
+            android:textSize="16sp" />
+
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:paddingLeft="24sp"
+            android:text="@string/mint"
+            android:textSize="16sp" />
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:paddingLeft="24sp"
+            android:text="@string/ice_cream"
+            android:textSize="16sp" />
+
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:paddingLeft="24sp"
+            android:text="@string/nutella"
+            android:textSize="16sp" />
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:paddingLeft="24sp"
+            android:text="@string/nutmeg"
+            android:textSize="16sp" />
+
+
+
 
         <TextView
             android:id="@+id/t1"
