@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 //       displayMessage(priceMessage);
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto:"));
-        intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.order_summary_email_subject,name));
+        intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.order_summary_email_subject, name));
         intent.putExtra(Intent.EXTRA_TEXT, priceMessage);
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
@@ -63,13 +63,13 @@ public class MainActivity extends AppCompatActivity {
 
     private String createOrderSummary(int priceOfOrder, int whippedCreamPrice, int chocolatePrice, String name, boolean addWhippedCream, boolean addChocolate) {
         if (addChocolate && addWhippedCream) {
-            return getString(R.string.order_summary_name,name) +"\n"+getString(R.string.order_summary_whipped_cream,addWhippedCream) +"\n"+ getString(R.string.order_summary_chocolate, addChocolate)  +"\n"+ getString(R.string.order_summary_quantity,quantity) +"\n"+ getString(R.string.order_summary_price) + quantity * (priceOfOrder + whippedCreamPrice + chocolatePrice) +"\n"+ getString(R.string.thank_you);
+            return getString(R.string.order_summary_name, name) + "\n" + getString(R.string.order_summary_whipped_cream, addWhippedCream) + "\n" + getString(R.string.order_summary_chocolate, addChocolate) + "\n" + getString(R.string.order_summary_quantity, quantity) + "\n" + getString(R.string.order_summary_price) + quantity * (priceOfOrder + whippedCreamPrice + chocolatePrice) + "\n" + getString(R.string.thank_you);
         } else if (addWhippedCream) {
-            return getString(R.string.order_summary_name,name) +"\n" + getString(R.string.order_summary_whipped_cream,addWhippedCream)  +"\n"+ getString(R.string.order_summary_chocolate, addChocolate)  +"\n"+ getString(R.string.order_summary_quantity,quantity)+"\n"+ getString(R.string.order_summary_price) + quantity * (priceOfOrder + whippedCreamPrice) +"\n"+ getString(R.string.thank_you);
+            return getString(R.string.order_summary_name, name) + "\n" + getString(R.string.order_summary_whipped_cream, addWhippedCream) + "\n" + getString(R.string.order_summary_chocolate, addChocolate) + "\n" + getString(R.string.order_summary_quantity, quantity) + "\n" + getString(R.string.order_summary_price) + quantity * (priceOfOrder + whippedCreamPrice) + "\n" + getString(R.string.thank_you);
         } else if (addChocolate) {
-            return getString(R.string.order_summary_name,name)+"\n" + getString(R.string.order_summary_whipped_cream,addWhippedCream)+"\n"+ getString(R.string.order_summary_chocolate, addChocolate)  +"\n"+ getString(R.string.order_summary_quantity,quantity) +"\n"+ getString(R.string.order_summary_price) + quantity * (priceOfOrder + chocolatePrice)+"\n" + getString(R.string.thank_you);
+            return getString(R.string.order_summary_name, name) + "\n" + getString(R.string.order_summary_whipped_cream, addWhippedCream) + "\n" + getString(R.string.order_summary_chocolate, addChocolate) + "\n" + getString(R.string.order_summary_quantity, quantity) + "\n" + getString(R.string.order_summary_price) + quantity * (priceOfOrder + chocolatePrice) + "\n" + getString(R.string.thank_you);
         }
-        return getString(R.string.order_summary_name,name) +"\n" + getString(R.string.order_summary_whipped_cream,addWhippedCream) +"\n"+ getString(R.string.order_summary_chocolate, addChocolate) +"\n"+ getString(R.string.order_summary_quantity,quantity)+"\n"+ getString(R.string.order_summary_price)+ quantity * priceOfOrder +"\n"+ getString(R.string.thank_you);
+        return getString(R.string.order_summary_name, name) + "\n" + getString(R.string.order_summary_whipped_cream, addWhippedCream) + "\n" + getString(R.string.order_summary_chocolate, addChocolate) + "\n" + getString(R.string.order_summary_quantity, quantity) + "\n" + getString(R.string.order_summary_price) + quantity * priceOfOrder + "\n" + getString(R.string.thank_you);
     }
 
 

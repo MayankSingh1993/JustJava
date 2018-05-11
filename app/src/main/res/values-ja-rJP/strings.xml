@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">コーヒーオーダー</string>
+    <string name="name"> 名</string>
+    <string name="toppings">トッピング</string>
+    <string name="whipped_cream">ホイップクリーム</string>
+    <string name="chocolate">チョコレート</string>
+    <string name="quantity">量</string>
+    <string name="order">注文</string>
+    <string name="initial_quantity_value">2</string>
+    <string name="order_summary_price">合計: </string>
+    <string name="order_summary_name">名 :<xliff:g id="name" example="amy" >%s</xliff:g></string>
+    <string name="order_summary_whipped_cream">ホイップクリームが追加されましたか？<xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
+    <string name="order_summary_chocolate">チョコレートを加えましたか？<xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+    <string name="order_summary_quantity">量: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+    <string name="below_one_coffee_message">あなたはコーヒーを1つ少なくすることはできません</string>
+    <string name="above_100_coffee_message">あなたは100以上のコーヒーを食べることはできません</string>
+    <string name="thank_you">ありがとうございました！</string>
+    <string name="order_summary_email_subject"><xliff:g id="name" example="Amy">%s</xliff:g>のためのjavaのみ</string>
+</resources>
