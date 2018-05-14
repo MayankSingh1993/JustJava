@@ -3,4 +3,7 @@
     <color name="colorPrimary">#EBCD84</color>
     <color name="colorPrimaryDark">#EBCD84</color>
     <color name="colorAccent">#EBCD84</color>
+    <color name="colorBrown">#845239</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTransParentWhite">#CCCCCC</color>
 </resources>

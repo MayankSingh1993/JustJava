@@ -43,17 +43,8 @@ public class MainActivity extends AppCompatActivity {
         boolean hasWhippedCream = whippedCreamCheckBox.isChecked();
         CheckBox chocolateCheckBox = (CheckBox) findViewById(R.id.checkBox2);
         boolean hasChocolate = chocolateCheckBox.isChecked();
-        CheckBox cinnamonCheckBox = (CheckBox) findViewById(R.id.checkBox1);
-        boolean hasCinnamon = cinnamonCheckBox.isChecked();
-        CheckBox mintCheckBox = (CheckBox) findViewById(R.id.checkBox2);
-        boolean hasMint = mintCheckBox.isChecked();
-        CheckBox nutellaCheckBox = (CheckBox) findViewById(R.id.checkBox1);
-        boolean hasnutella = nutellaCheckBox.isChecked();
-        CheckBox nutmegCheckBox = (CheckBox) findViewById(R.id.checkBox2);
-        boolean hasNutmeg = nutmegCheckBox.isChecked();
-        boolean hasNutella = nutellaCheckBox.isChecked();
-        CheckBox icecreamCheckBox = (CheckBox) findViewById(R.id.checkBox2);
-        boolean hasIceCream = icecreamCheckBox.isChecked();
+
+
         //Log.v("MainActivity","Has Whipped Cream : "+hasWhippedCream);
         //String priceMessage =calculatePrice(quantity,10);
         String priceMessage = createOrderSummary(5, 1, 2, name, hasWhippedCream, hasChocolate);

@@ -16,5 +16,6 @@
     <string name="below_one_coffee_message">あなたはコーヒーを1つ少なくすることはできません</string>
     <string name="above_100_coffee_message">あなたは100以上のコーヒーを食べることはできません</string>
     <string name="thank_you">ありがとうございました！</string>
-    <string name="order_summary_email_subject"><xliff:g id="name" example="Amy">%s</xliff:g>のためのjavaのみ</string>
+    <string name="order_summary_email_subject"><xliff:g id="name" example="Amy">%s</xliff:g>のコーヒーオーダーの詳細</string>
+    <string name="cappuccino_coffee">カプチーノコーヒー</string>
 </resources>

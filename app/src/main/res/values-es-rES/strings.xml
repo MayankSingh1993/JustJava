@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Title for the application. [CHAR LIMIT=12] -->
-    <string name="app_name">Sólo Java</string>
+    <string name="app_name">Ordene su café</string>
 
     <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
     <string name="name">Nombre</string>
@@ -61,9 +61,10 @@
       Subject line for the order summary email. It will be in the format of
       "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
     -->
-    <string name="order_summary_email_subject">Sólo java para <xliff:g id="name" example="Amy">%s</xliff:g></string>
+    <string name="order_summary_email_subject">Detalles del pedido de café <xliff:g id="name" example="Amy">%s</xliff:g></string>
 
     <string name="below_one_coffee_message">No puedes tener menos de un café</string>
     <string name="above_100_coffee_message">No puedes tener más de 100 cafés</string>
+    <string name="cappuccino_coffee">café capuchino</string>
 
 </resources>
